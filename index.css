@@ -56,6 +56,12 @@ body {
     float: left;
 }
 
+.rightsection{
+    width: 320px;
+    background: #111111;
+    float: right;
+}
+
 .footersection{
     height: 80px;
     background: #0f1f1f;
