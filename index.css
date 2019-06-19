@@ -17,6 +17,8 @@ body {
     margin: 0 auto;
 }
 
+.clear{overflow: hidden;}
+
 .headersection{
     height: 80px;
     background: #0f1f1f;
@@ -30,6 +32,13 @@ body {
 .contentsection{
     background: #333333;
 }
+
+.maincontent{
+    width: 400px;
+    background: #555555;
+    float: left;
+}
+
 
 .footersection{
     height: 80px;
