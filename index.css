@@ -12,3 +12,13 @@ body {
     background: url(images/bg.jpg)repeat fixed 0 0 #000;
 }
 
+.templete{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.headersection{
+    height: 80px;
+    background: #0f1f1f;
+}
+
