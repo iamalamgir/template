@@ -50,6 +50,12 @@ body {
     background: #222;
 }
 
+.leftsection{
+    width: 320px;
+    background: #111111;
+    float: left;
+}
+
 .footersection{
     height: 80px;
     background: #0f1f1f;
