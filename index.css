@@ -21,7 +21,10 @@ body {
 
 .headersection{
     height: 80px;
-    background: #0f1f1f;
+}
+.headersection img{
+    height: 86px;
+    width: 965px;
 }
 
 .navsection{
@@ -49,6 +52,7 @@ body {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1.5fr;
     height:150px;
+    grid-gap: 1em;
     
 }
 .main>div{
