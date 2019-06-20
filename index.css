@@ -34,18 +34,29 @@ body {
 }
 
 .contentsection{
-    background: #333333;
+   
 }
 
 .maincontent{
     width: 400px;
-    background: #555555;
     float: left;
+    border: 1px solid;
+}
+
+.maincontent img{
+    background: #000 none repeat scroll 0 0;
+    border: 1px solid #f6bf5b;
+    border-radius: 50px;
+    height: 80px;
+    margin-left: 50px;
+    margin: 10px 0px 0px 50px;
+    padding: 1px;
+    width: 80px;
 }
 
 .sidebar{
     width: 550px;
-    background: #555555;
+    border: 1px solid#555555;
     float: right;    
 }
 
@@ -54,13 +65,12 @@ body {
     grid-template-columns: 1.5fr 1fr 1.5fr;
     height:150px;
     grid-gap: 1em;
-    
 }
 .main>div{
-    background-color: #222;
+    border: 1px solid #222;
 }
 .main>div:nth-child(odd){
-    background-color: #fff;
+    border: 1px solid #fff;
 }
 
 
