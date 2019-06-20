@@ -121,22 +121,46 @@ body {
     
 }
 
-*.somesidebar1 p{
+.somesidebar1{
+    display: grid;
+    grid-template-rows: .5fr 2fr;
+}
+.somesidebar1>div{
+    /*border: 1px solid #222;*/
+}
+.somesidebar1>div:nth-child(odd){
+    /*border: 1px solid #fff;*/
+}
+
+.ok2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ok2>div{
+    /*border: 1px solid #222;*/
+}
+.ok2>div:nth-child(odd){
+    /*border: 1px solid #fff;*/
+}
+
+.somesidebar1 p{
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 1px;
-    margin: 5px 5px 5px 20px; 
+    margin: 5px 5px 5px 10px; 
     text-align: justify;
     font-style: italic; 
+    color: #E5F5DD
 }
 
 .somesidebar1 h3{
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 10px;
 }
 
 .somesidebar1 a{
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 10px;
     font-style: italic;
+    color: #D73B37
 }
 
 .main{
