@@ -73,6 +73,15 @@ body {
     text-align: justify;
     line-height: 20px;
 }
+
+.imagesection a{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1px;
+    margin: 5px 5px 5px 20px; 
+    text-align: justify;
+    font-style: italic;
+}
 .imagesection img{
     background: 0;
     border: 0;
@@ -108,7 +117,26 @@ body {
     color: #fff;
     margin-bottom: 8px;
     padding: 10px;
+    margin: 0px 10px 0px 0px;
     
+}
+
+*.somesidebar1 p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1px;
+    margin: 5px 5px 5px 20px; 
+    text-align: justify;
+    font-style: italic; 
+}
+
+.somesidebar1 h3{
+    margin: 0px 0px 0px 20px;
+}
+
+.somesidebar1 a{
+    margin: 0px 0px 0px 20px;
+    font-style: italic;
 }
 
 .main{
