@@ -54,6 +54,25 @@ body {
     width: 80px;
 }
 
+.maincontent p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1px;
+    margin: 5px 5px 5px 20px; 
+    text-align: justify;
+}
+
+.maincontent h2{
+    margin: 0px 0px 0px 20px;
+}
+
+.maincontent a{
+    font-size: 16px;
+    margin: 10px 5px 5px 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
 .sidebar{
     width: 550px;
     border: 1px solid#555555;
