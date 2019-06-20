@@ -45,22 +45,19 @@ body {
     float: right;    
 }
 
-.undersecton{
+.main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
     height:150px;
-    background: #222;
+    
+}
+.main>div{
+    background-color: #222;
+}
+.main>div:nth-child(odd){
+    background-color: #fff;
 }
 
-.leftsection{
-    width: 320px;
-    background: #111111;
-    float: left;
-}
-
-.rightsection{
-    width: 320px;
-    background: #111111;
-    float: right;
-}
 
 .footersection{
     height: 80px;
