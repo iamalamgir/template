@@ -60,6 +60,7 @@ body {
     margin-bottom: 1px;
     margin: 5px 5px 5px 20px; 
     text-align: justify;
+    font-style: italic;
 }
 
 .maincontent h2{
@@ -72,11 +73,42 @@ body {
     text-align: justify;
     line-height: 20px;
 }
+.imagesection img{
+    background: 0;
+    border: 0;
+    border-radius: 0;
+    margin-left: 0;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+.imagesection h2{
+    margin: 0px 0px 0px 20px;
+}
+
+.imagesection a{
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+    text-align: justify;
+    line-height: 0px;
+}
 
 .sidebar{
     width: 550px;
     border: 1px solid#555555;
     float: right;    
+}
+
+.sidebar h2{
+    background: #000 none repeat scroll 0 0;
+    border-bottom: 2px solid #555555;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8px;
+    padding: 10px;
+    
 }
 
 .main{
