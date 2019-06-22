@@ -20,12 +20,24 @@ body {
 .clear{overflow: hidden;}
 
 .headersection{
-    height: 80px;
-}
-
-.headersection img{
-    height: 86px;
+    background: url(images/tooplate_menu_a.png) -12px 0px;
+    height: 80px ; 
     width: 965px;
+}
+.headersection p{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.headersection img{
+    background: 0;
+    border: 0;
+    border-radius: 50px;
+    margin-left: 0;
+    margin: 0px 0px 0px 500px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
 }
 
 .navsection{
@@ -117,29 +129,29 @@ body {
     color: #fff;
     margin-bottom: 8px;
     padding: 10px;
-    margin: 0px 10px 0px 0px;
+    margin: 5px 10px 0px 0px;
 }
 
 .somesidebar2 h2{
     background: #fff none repeat scroll 0 0;
     border-bottom: 2px solid #555555;
-    border-radius: 20px 0px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
     text-align: center;
     color: #000;
     margin-bottom: 8px;
     padding: 10px;
-    margin: 0px 10px 0px 0px;
+    margin: 5px 10px 0px 0px;
 }
 
 .somesidebar3 h2{
     background: #BCB0DE none repeat scroll 0 0;
     border-bottom: 2px solid #555555;
-    border-radius: 20px 0px 20px 0px;
+    border-radius: 0px 0px 20px 20px;
     text-align: center;
     color: #5867A9;
     margin-bottom: 8px;
     padding: 10px;
-    margin: 0px 10px 0px 0px;
+    margin: 5px 10px 0px 0px;
     
 }
 
@@ -154,15 +166,37 @@ body {
     height: 60px;
 }
 
+.somesidebar3{
+    display: grid;
+    grid-template-rows: .5fr 2fr;
+}
+
+.follow2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .2em;
+}
+
 .somesidebar3 img{
     background: 0;
     border: 0;
     border-radius: 0px 70px 0px 40px;
     margin-left: 0;
-    margin: 5px 0px 0px 60px;
+    margin: 5px 0px 0px 30px;
     padding: 0;
     width: 100px;
     height: 100px;
+}
+
+.follow2 h5{
+    font-size: 10px;
+    color: blue;
+    padding: 1px;
+    text-align: center;
+    border: 1px solid #777;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
 }
 
 .somesidebar1{
@@ -178,7 +212,7 @@ body {
 
 .ok2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr .8fr;
 }
 .ok2>div{
     /*border: 1px solid #222;*/
@@ -220,13 +254,25 @@ body {
     border: 1px solid #fff;
 }
 
-
 .footersection{
-    height: 80px;
-}
-
-.footersection img{
-    height: 86px;
+    background: url(images/tooplate_menu_a1.png) -12px 0px;
+    height: 80px ; 
     width: 965px;
+}
+.footersection p{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+.footersection img{
+    background: 0;
+    border: 0;
+    border-radius: 50px;
+    margin-left: 0;
+    margin: 0px 5px 0px 500px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
 }
 
