@@ -277,6 +277,18 @@ body {
 	background: url(images/tooplate_list2.png) no-repeat scroll 0 5px;  
 }
 
+.maindiv3 h2{
+    margin: 5px 0px 5px 20px;
+}
+
+.maindiv3 a{
+    font-size: 16px;
+    font-style: italic;
+    margin: 10px 0px 20px 20px;
+    text-align: justify;
+    line-height: 5px;
+}
+
 .footersection{
     background: url(images/tooplate_menu_a1.png) -12px 0px;
     height: 80px ; 
