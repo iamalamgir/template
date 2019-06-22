@@ -118,7 +118,51 @@ body {
     margin-bottom: 8px;
     padding: 10px;
     margin: 0px 10px 0px 0px;
+}
+
+.somesidebar2 h2{
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 2px solid #555555;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 8px;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.somesidebar3 h2{
+    background: #BCB0DE none repeat scroll 0 0;
+    border-bottom: 2px solid #555555;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    color: #5867A9;
+    margin-bottom: 8px;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
     
+}
+
+.somesidebar2 img{
+    background: 0;
+    border: 1px solid #f6bf5b;
+    border-radius: 20px 0px 20px 0px;
+    margin-left: 0;
+    margin: 5px 0px 0px 20px;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.somesidebar3 img{
+    background: 0;
+    border: 0;
+    border-radius: 0px 70px 0px 40px;
+    margin-left: 0;
+    margin: 5px 0px 0px 60px;
+    padding: 0;
+    width: 100px;
+    height: 100px;
 }
 
 .somesidebar1{
