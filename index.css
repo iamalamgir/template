@@ -243,7 +243,7 @@ body {
 
 .main{
     display: grid;
-    grid-template-columns: 3fr .5fr 1fr;
+    grid-template-columns: 3fr .8fr 1fr;
     height:150px;
     grid-gap: 1em;
 }
@@ -287,6 +287,21 @@ body {
     margin: 10px 0px 20px 20px;
     text-align: justify;
     line-height: 5px;
+}
+
+.maindiv2 img{
+    background: 0;
+    border: 0;
+    border-radius: 50px;
+    margin-left: 0;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.maindiv2 h3{
+    margin: 5px 0px 5px 0px;
 }
 
 .footersection{
