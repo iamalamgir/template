@@ -28,11 +28,16 @@ body {
     height: 80px ; 
     width: 965px;
 }
+
 .headersection h2{
     font-size: 20px;
     color: #fff;
     text-align: center;
     margin: 15px 0px 0px 0px;
+}
+
+.headersection h2:hover{
+    color: red;
 }
 
 .navsection{
@@ -49,6 +54,10 @@ body {
     padding: 0;
     width: 35px;
     height: 35px;
+}
+.navsection img:hover{
+    background: red;
+    
 }
 
 .contentsection{
@@ -79,9 +88,11 @@ body {
     margin: 5px 5px 5px 20px; 
     text-align: justify;
     font-style: italic;
+    color: #fff;
 }
 
 .maincontent h2{
+    color: red;
     margin: 0px 0px 0px 20px;
 }
 
@@ -238,6 +249,7 @@ body {
 }
 
 .somesidebar1 h3{
+    color: blue;
     margin: 0px 0px 0px 10px;
 }
 
@@ -266,6 +278,7 @@ body {
 }
 
 .main h2{
+    color: red;
     margin: 5px 0px 0px 20px;
 }
 
@@ -284,6 +297,7 @@ body {
 }
 
 .maindiv3 h2{
+    color: red;
     margin: 15px 0px 5px 20px;
 }
 
@@ -307,6 +321,7 @@ body {
 }
 
 .maindiv2 h3{
+    color: #fff;
     margin: 15px 0px 5px 0px;
 }
 
